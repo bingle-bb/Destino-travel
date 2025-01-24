@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us and information for Destino Travel Myanmar</title>
+    <meta name="Description"
+        content="Explore the enchanting beauty of Myanmar(Burma) with our comprehensive travel guide. Discover breathtaking landscapes in States: Chin, Kachin, Kayah, Kayin, Mon, Rakhine, and Shan,Regions: Ayeyarwady, Bago, Magway, Mandalay, Sagaing, Tanintharyi, and Yangon  and cities of Myanmar.Learn traditions of Myanmar and events and festivals of Myanmar.We also provided things you need when you travel to Myanmar.">
+    <meta name="keywords"
+        content="Burma travel tips,Myanmar culture, Myanmar destinations, cultural insights, travel articles, things to do in Burma, local experiences, Myanmar travel guide, adventure travel Burma, hidden gems Myanmar,Myanmar travel resources.">
+    <meta name="author" content="Cheerful Chums">
+    <link rel="icon" href="/images/pjlogo.jpg" type="image.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<\head>
+    <style>
+        /* Disable default smooth scrolling to use custom animation */
+        html {
+            scroll-behavior: auto;
+        }
+
+        /* Glassy Navbar Style */
+        .navbar {
+            background: rgba(5, 86, 236, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Center Navbar Links */
+        .navbar-nav {
+            margin: 0 auto;
+        }
+
+        /* Circular Logo */
+        .navbar-brand img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            object-fit: cover;
+        }
+
+        /* Nav Links */
+        .nav-link {
+            color: #ffffff;
+            font-weight: 500;
+            margin: 0 10px;
+            transition: color 0.3s ease, background-color 0.3s ease;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .nav-link:hover {
+            color: #ffffff;
+            background-color: #08118a;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Contact Button */
+        .btn-contact {
+            background-color: #08118a;
+            color: white;
+            font-weight: bold;
+            border-radius: 9px;
+            padding: 8px 16px;
+        }
+
+        .btn-contact:hover {
+            background-color: #7a9e25;
+            color: white;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            position: relative;
+            background-image: url(images/ourt.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Title styling and animation */
+        .hero-title {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 0.5em;
+            opacity: 0;
+            animation: fadeInUp 1s ease-out forwards;
+        }
+
+        .Myanmar {
+            color: yellowgreen;
+        }
+
+        .destino {
+            color: #f39c12;
+        }
+
+        /* Subtitle styling and animation */
+        .hero-subtitle {
+            font-size: 1.5rem;
+            opacity: 0;
+            animation: fadeIn 3.5s ease-out forwards;
+            animation-delay: 1.5s;
+        }
+
+        /* Animation keyframes */
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* <!--style starter for section card --> */
+        place {
+            width: 100%;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        place h1 {
+            margin-top: 3vw;
+            text-align: center;
+            color: #D27C2C;
+        }
+
+        place h2 {
+
+            text-align: center;
+            color: #D27C2C;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            width: 80%;
+            overflow: hidden;
+            /* Hide overflowing cards */
+            position: relative;
+            /* For arrow positioning */
+        }
+
+        .cards-wrapper {
+            display: flex;
+            transition: transform 0.5s ease;
+            /* Smooth transition */
+        }
+
+        .card {
+            position: relative;
+            width: 260px;
+            /* Width of the cards */
+            height: 400px;
+            /* Height of the cards */
+            margin: 20px;
+            text-decoration: none;
+            color: black;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.6s ease;
+            /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+        }
+
+        .card:hover {
+            transform: translateY(-20px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .caption {
+            position: absolute;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 5px 0;
+            height: auto;
+        }
+
+        .arrow {
+            font-size: 30px;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            /* Center vertically */
+            transform: translateY(-50%);
+            /* Adjust for exact centering */
+            background-color: white;
+            /* White background for visibility */
+            border: 2px solid black;
+            /* Border color */
+            border-radius: 50%;
+            /* Round button */
+            padding: 5px;
+            z-index: 1;
+            /* Ensure arrows are above cards */
+            box-shadow: 0 4px 10px white;
+            display: none;
+            /* Hide arrows initially */
+        }
+
+        .left-arrow {
+            left: 1px;
+            /* Position closer to the first card */
+        }
+
+        .right-arrow {
+            right: 1px;
+            /* Position closer to the fourth card */
+        }
+
+        .arrow.visible {
+            display: block;
+            /* Show arrows when needed */
+        }
+
+        @media (min-width: 992px) and (max-width: 1440px) {
+            .place {
+                height: auto;
+            }
+
+            .container {
+                width: 90%;
+            }
+
+            .card {
+                width: 250px;
+                height: 390px;
+                margin: 15px;
+            }
+
+            .arrow {
+                font-size: 36px;
+                padding: 8px;
+            }
+
+            .left-arrow {
+                left: 20px;
+            }
+
+            .right-arrow {
+                right: 20px;
+            }
+        }
+
+        /* background attachment fixed */
+        /* Default styles (for larger screens) */
+        article {
+            background-image: url(images/myan.jpg);
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        article p {
+            font-size: 23px;
+            color: white;
+            font-weight: bold;
+            transition: 0.5s;
+            font-family: "Roboto Slab", serif;
+            margin-top: 7vw;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* Medium screens (tablets) */
+        @media (max-width: 768px) {
+            article {
+                height: 80vh;
+            }
+
+            article p {
+                font-size: 18px;
+                padding: 15px;
+                margin-top: 10vw;
+            }
+        }
+
+        /* Small screens (phones) */
+        @media (max-width: 480px) {
+            article {
+                height: 70vh;
+            }
+
+            article p {
+                font-size: 16px;
+                padding: 10px;
+                margin-top: 12vw;
+            }
+        }
+
+        /* Basic Styles */
+        body {
+            font-family: var(--bs-body-font-family);
+            margin: 0;
+            padding: 0;
+        }
+
+        .icon-menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px;
+            /* Reduced padding */
+            background-color: #e0e0e0;
+            margin-top: 20px;
+            /* Adjusted space above icon menu */
+        }
+
+        .icon {
+            flex: 1 1 100px;
+            /* Adjust base size for smaller icons */
+            max-width: 120px;
+            /* Max width for each icon */
+            text-align: center;
+            padding: 10px;
+            /* Reduced padding */
+            margin: 5px;
+            /* Reduced margin between icons */
+            background-color: #ffffff;
+            border-radius: 8px;
+            /* Slightly smaller border radius */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            /* Smaller shadow */
+            transition: background-color 0.3s, transform 0.3s;
+            /* Added transform transition */
+            cursor: pointer;
+        }
+
+        .icon:hover {
+            background-color: #c0c0c0;
+            /* Change background color on hover */
+            transform: scale(1.05);
+            /* Slightly enlarge the icon on hover */
+        }
+
+        .content {
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        .content-item {
+            display: none;
+            /* Hide all content items by default */
+            margin-bottom: 30px;
+        }
+
+        .content-item.active {
+            display: block;
+            /* Show active content item */
+        }
+
+        .icon img {
+            width: 50px;
+            /* Reduced size of the icon image */
+            height: 50px;
+            /* Match height to width */
+            object-fit: contain;
+            /* Adjust for better fitting */
+            border-radius: 50%;
+            /* Optional: circular shape */
+            margin-bottom: 5px;
+            /* Space between image and text */
+        }
+
+        .icon p {
+            margin: 0;
+            font-size: 15px;
+            /* Reduced font size for icon labels */
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+
+
+        /* Responsive Design for Icon Menu */
+        @media (max-width: 1024px) {
+            .icon {
+                flex: 1 1 120px;
+                /* Smaller base size for medium screens */
+            }
+        }
+
+        @media (max-width: 600px) {
+            .icon {
+                flex: 1 1 100%;
+                /* Stack icons on small screens */
+            }
+        }
+
+        /* Content Section Styles */
+        .content {
+            padding: 40px;
+            font-family: "Roboto Slab", serif;
+            color: #333;
+            width: 100%;
+            height: 600PXpx;
+
+        }
+
+        .content-item {
+            margin-bottom: 30px;
+            /* Space between each item */
+        }
+
+        .description {
+            margin-top: 10px;
+            /* Space between title and description */
+            line-height: 1.6;
+            /* Improve readability */
+        }
+
+        h1 {
+            font-size: 40px;
+            /* Title size */
+            margin-bottom: 10px;
+            /* Space between title and content */
+            font-weight: bold;
+        }
+
+        p {
+            margin: 5px 0;
+            /* Space between paragraphs */
+            font-size: 20px;
+            /* Font size for content */
+            color: #181414;
+        }
+
+
+        /* Responsive Design for Content */
+        @media (max-width: 1024px) {
+            .content-item {
+                width: calc(50% - 30px);
+                /* Two items per row on medium screens */
+            }
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5em;
+                /* Adjust heading size for small screens */
+            }
+
+            p {
+                font-size: 1.2em;
+                /* Adjust paragraph size for small screens */
+            }
+
+            .content-item {
+                width: calc(100% - 30px);
+                /* Stack items on small screens */
+            }
+        }
+
+
+
+        /* General Styles for Team Section */
+        /* General Styles for Team Section */
+        .team {
+            padding: 40px 20px;
+            background-color: #ddd;
+        }
+
+        .team h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        /* Team Content Container */
+        .team-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        /* Individual Team Member Box */
+        .team-content .box {
+            background: rgba(255, 255, 255, 0.2);
+            /* Glass effect */
+            backdrop-filter: blur(10px);
+            /* Blurring effect */
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .team-content .box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Team Member Image Styling */
+        .team-content .box img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-top: 15px;
+            /* Adds space above the image */
+        }
+
+        /* Team Member Name */
+        .team-content .box h3 {
+            font-size: 1.2rem;
+            color: #333;
+            margin: 15px 0 10px;
+        }
+
+        /* Icons Styling */
+        /* Icons Styling */
+        .icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            /* Space between icons */
+            margin-bottom: 15px;
+        }
+
+        .icons a {
+            text-decoration: none;
+            /* Remove underline from links */
+            color: #333;
+            /* Set the color for the icon */
+        }
+
+        .icons i {
+            font-size: 1.5rem;
+            /* Set the size of both icons */
+            transition: transform 0.2s;
+            color: #333;
+            /* Icon color */
+        }
+
+        .icons span {
+            display: flex;
+            /* Aligns the heart icon and count */
+            align-items: center;
+            /* Center the content vertically */
+        }
+
+        /* Heart Count Styling */
+        .heart-count {
+            margin-left: 5px;
+            /* Space between heart and number */
+            font-size: 1rem;
+            /* Size of the heart count */
+            vertical-align: middle;
+            /* Align with icon */
+        }
+
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .team-content .box {
+                width: 200px;
+                /* Adjust for tablets */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .team-content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .team-content .box {
+                width: 100%;
+                /* Full width on mobile */
+                max-width: 300px;
+            }
+        }
+
+        .custom-footer {
+            background: #161D6f;
+            color: white;
+            padding: 40px 20px;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .footer-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .footer-section {
+            flex: 1;
+            min-width: 250px;
+            margin: 15px;
+        }
+
+        .footer-section h3 {
+            border-bottom: 2px solid #f39c12;
+            padding-bottom: 10px;
+        }
+
+        .footer-section p {
+            margin: 10px 0;
+            color: white;
+        }
+
+        .footer-section a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+
+        .footer-section a:hover {
+            text-decoration: underline;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .newsletter input {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            margin-right: 5px;
+            width: 70%;
+        }
+
+        .newsletter button {
+            padding: 10px 15px;
+            background-color: #f39c12;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            color: white;
+        }
+
+        .newsletter button:hover {
+            background-color: #e67e22;
+        }
+
+       .footer-bottom {
+            display: flex; 
+            justify-content: center;
+            align-items: center; 
+            text-align: center;
+            margin: 20px auto; 
+            font-size: 16px; 
+            padding: 10px; 
+            width: 90%; 
+            box-sizing: border-box; 
+        }
+        @media (max-width: 768px) {
+            .footer-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .footer-section {
+                text-align: center; /* Center text on small screens */
+                margin: 10px 0; /* Adjust margins for mobile */
+            }
+
+            .footer-bottom {
+                font-size: 12px; 
+                width: 100%; 
+                padding: 8px; 
+            }
+        
+            @media (max-width: 480px) {
+            .footer-bottom {
+                font-size: 10px; 
+                padding: 5px; 
+            }
+        }
+    </style>
+
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.jpg" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sectionA">Where to go</a></li>
+                        <li class="nav-item"><a class="nav-link" href="eventandfestival.html">Events and festivals</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="aboutus.html">About us</a></li>
+                    </ul>
+
+                    <!-- Contact Button -->
+                    <a href="form.html" class="btn btn-contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title" id="hero-title">
+                    Welcome to Our <span class="destino">Destino</span> Website
+                </h1>
+                <p class="hero-subtitle" id="hero-subtitle">
+                    Your journey to <span class="Myanmar">Myanmar</span> begins here
+                </p>
+        </header>
+
+        <!-- Updated JavaScript Links -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    </header>
+
+    <place><!--here is the stater for section card-->
+        <h1 id="sectionA"> Explore the Diversity of States and Regions</h1>
+        <h2>In Burma</h2>
+        <div class="container" id="cardContainer">
+            <div class="cards-wrapper" id="cardsWrapper">
+                <a href="" class="card">
+                    <img src="" alt="Image">
+                    <div class="caption">Kalaw<br>Shan State</div>
+                </a>
+                <a href="" class="card">
+                    <img src="" alt="Image">
+                    <div class="caption">Image 2</div>
+                </a>
+                <a href="" class="card">
+                    <img src="" alt="Image">
+                    <div class="caption">Hpa-An<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Doloremque beatae non, odit et recusandae
+                        quam nihil est numquam natus labore.</div>
+                </a>
+                <a href="" class="card">
+                    <img src="" alt="Image">
+                    <div class="caption">Hpa-An<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Doloremque beatae non, odit et recusandae
+                        quam nihil est numquam natus labore.</div>
+                </a>
+
+                <a href="" class="card hidden">
+                    <img src="" alt="Image">
+                    <div class="caption">Hpa-An<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Doloremque beatae non, odit et recusandae
+                        quam nihil est numquam natus labore.</div>
+                </a>
+                <a href="" class="card hidden">
+                    <img src="" alt="Image">
+                    <div class="caption">Hpa-An<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Doloremque beatae non, odit et recusandae
+                        quam nihil est numquam natus labore.</div>
+                </a>
+                <a href="" class="card hidden">
+                    <img src="" alt="Image">
+                    <div class="caption">Hpa-An<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Doloremque beatae non, odit et recusandae
+                        quam nihil est numquam natus labore.</div>
+                </a>
+                <a href="bagomain.html" class="card hidden">
+                    <img src="images/pla12.jpg" alt="Bago">
+                    <div class="caption">Bago Region<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Bago
+                        Region is an administrative region of Myanmar, located in the southern central part of the
+                        country.</div>
+                </a>
+
+                <a href="" class="card hidden">
+                    <img src="" alt="Image">
+                    <div class="caption">Hpa-An<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Doloremque beatae non, odit et recusandae
+                        quam nihil est numquam natus labore.</div>
+                </a>
+                <a href="kachinmain.html" class="card hidden">
+                    <img src="images/pla1.jpg" alt="Kachin State">
+                    <div class="caption">Kachin State <br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Kachin
+                        State is the northernmost state of Myanmar. It is bordered by China to the north and east, Shan
+                        State to the south, and Sagaing Region and India to the west.</div>
+                </a>
+
+                <a href="bagomain.html" class="card hidden">
+                    <img src="images/pla12.jpg" alt="Bago Region">
+                    <div class="caption">Bago Region<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Bago
+                        Region is an administrative region of Myanmar, located in the southern central part of the
+                        country.</div>
+                </a>
+
+                <a href="kachinmain.html" class="card hidden">
+                    <img src="images/pla1.jpg" alt="Kachin State">
+                    <div class="caption">Kachin State <br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Kachin
+                        State is the northernmost state of Myanmar. It is bordered by China to the north and east, Shan
+                        State to the south, and Sagaing Region and India to the west.</div>
+                </a>
+
+                <a href="bagomain.html" class="card hidden">
+                    <img src="images/pla12.jpg" alt="Bago Region">
+                    <div class="caption">Bago Region<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Bago
+                        Region is an administrative region of Myanmar, located in the southern central part of the
+                        country.</div>
+                </a>
+
+                <a href="kachinmain.html" class="card hidden">
+                    <img src="images/pla1.jpg" alt="Kachin State">
+                    <div class="caption">Kachin State <br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Kachin
+                        State is the northernmost state of Myanmar. It is bordered by China to the north and east,
+                        Shan
+                        State to the south, and Sagaing Region and India to the west.</div>
+                </a>
+                <a href="Kayarmain.html" class="card hidden">
+                    <img src="images/pla2.jpg" alt="Kayah state">
+                    <div class="caption">Kayah state<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Kayah
+                        State, or Karenni State, is a state of Myanmar. Situated in eastern Myanmar, it is bounded
+                        on
+                        the north by Shan State, on the east by Thailand's Mae Hong Son Province.</div>
+                </a>
+                <a href="Kayin.html" class="card hidden">
+                    <img src="images/pla3.jpg" alt="Kayin State">
+                    <div class="caption">Kayin State<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Kayin
+                        State, formerly known as Karen State, is a state of Myanmar. The capital city is Hpa-An,
+                        also
+                        spelled Pa-An.</div>
+                </a>
+                <a href="Chinmain.html" class="card hidden">
+                    <img src="images/165433947700.jpg" alt="Chin State">
+                    <div class="caption">Chin State<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;;">Located
+                        at the western side of Myanmar with Hakha as its capital, the Chin State/Chin Hills stands
+                        tall
+                        at 3,053 metres, attracting mountaineers and hikers to visit Chin.</div>
+                </a>
+
+                <a href="Monmain.html" class="card hidden">
+                    <img src="images/Mon.jpg" alt="Mon State">
+                    <div class="caption">Mon State<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Mon
+                        State is an administrative division of Myanmar. It lies between Kayin State to the east, the
+                        Andaman Sea to the west, Bago Region to the north and Tanintharyi Region to the south</div>
+                </a>
+
+                <a href="Rakinemain.html" class="card hidden">
+                    <img src="images/pla5.jpg" alt="Rakhine State">
+                    <div class="caption">Rakhine State<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Rakhine
+                        State, formerly known as Arakan State, is a state in Myanmar. Situated on the western coast,
+                        it
+                        is bordered by Chin State to the north, Magway Region, Bago Region.</div>
+                </a>
+                <a href="Shanmain.html" class="card hidden">
+                    <img src="images/pla6.jpg" alt="Shan State">
+                    <div class="caption">Shan State<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Shan
+                        State is a state of Myanmar. Shan State borders China to the north, Laos to the east, and
+                        Thailand to the south, and five administrative divisions of Myanmar in the west. </div>
+                </a>
+                <a href="Magwaymain.html" class="card hidden">
+                    <img src="images/pla10.jpg" alt="Magway Region">
+                    <div class="caption">Magway Region <br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Magway
+                        Region is an administrative division in central Myanmar. It is the second largest of
+                        Myanmar's
+                        seven divisions, with an area of 44,820 km².</div>
+                </a>
+                <a href="Mandalaymain.html" class="card hidden">
+                    <img src="images/pla8.jpg" alt="Mandalay Region">
+                    <div class="caption">Mandalay Region<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Mandalay
+                        is a city and former royal capital in northern Myanmar (formerly Burma) on the Irrawaddy
+                        River.
+                    </div>
+                </a>
+
+                <a href="Yangon.html" class="card hidden">
+                    <img src="images/pla7.jpg" alt="Yangon Region">
+                    <div class="caption">Yangon Region<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Yangon
+                        is the largest city in Myanmar.A mix of British colonial architecture, modern high-rises and
+                        gilded Buddhist pagodas define its skyline.</div>
+                </a>
+                <a href="sagaingmain.html" class="card hidden">
+                    <img src="images/pla9.png" alt="Sagaing Region">
+                    <div class="caption">Sagaing Region <br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Sagaing
+                        is the former capital of the Sagaing Region of Myanmar. It is located on the Irrawaddy
+                        River, 20
+                        km to the south-west of Mandalay on the opposite bank of the river. </div>
+                </a>
+                <a href="TanintharyiMain.html" class="card hidden">
+                    <img src="images/pla11.jpg" alt="Tanintharyi Region">
+                    <div class="caption">Tanintharyi Region<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Tanintharyi
+                        Region is a region of Myanmar, covering the long narrow southern part of the country on the
+                        northern Malay Peninsula, reaching to the Kra Isthmus.</div>
+                </a>
+                <a href="Ayeyarwadymain.html" class="card hidden">
+                    <img src="images/pla13.jpg" alt="Ayeyarwady Region">
+                    <div class="caption">Ayeyarwady Region<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Ayeyawady
+                        Region is a region of Myanmar, occupying the delta region of the Ayeyarwady River.</div>
+                </a>
+                <a href="bagomain.html" class="card hidden">
+                    <img src="images/pla12.jpg" alt="Bago Region">
+                    <div class="caption">Bago Region<br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Bago
+                        Region is an administrative region of Myanmar, located in the southern central part of the
+                        country.</div>
+                </a>
+
+                <a href="sagaingmain.html" class="card hidden">
+                    <img src="images/pla9.png" alt="Sagaing Region">
+                    <div class="caption">Sagaing Region <br
+                            style="line-height: 2vw;text-align: justify;text-justify: inter-word;text-indent: 25px;">Sagaing
+                        is the former capital of the Sagaing Region of Myanmar. It is located on the Irrawaddy
+                        River, 20
+                        km to the south-west of Mandalay on the opposite bank of the river. </div>
+                </a>
+            </div>
+            <!-- Arrows for showing more cards -->
+            <div class="arrow left-arrow" id="showMoreLeft">
+                <i class="fas fa-chevron-left"></i> <!-- Left arrow icon using Font Awesome -->
+            </div>
+            <div class="arrow right-arrow" id="showMoreRight">
+                <i class="fas fa-chevron-right"></i> <!-- Right arrow icon using Font Awesome -->
+            </div>
+        </div>
+
+        <script>
+            const cardsWrapper = document.getElementById('cardsWrapper');
+            const showMoreLeft = document.getElementById('showMoreLeft');
+            const showMoreRight = document.getElementById('showMoreRight');
+            const totalCards = document.querySelectorAll('.card').length;
+            const visibleCards = 4; // Number of cards to show at once
+            const moveCount = 3; // Number of cards to move per click
+            const cardWidth = 130; // Card width
+            const cardMargin = 20; // Margin between cards
+            let currentIndex = 0; // Starting index (first card)
+
+            
+            function updateCardPosition() {
+                const offset = currentIndex * (cardWidth + cardMargin); // Total width moved
+                cardsWrapper.style.transform = `translateX(-${offset}px)`;
+
+                // Show or hide arrows based on the current index
+                showMoreLeft.classList.toggle('visible', currentIndex > 0);
+                showMoreRight.classList.toggle('visible', currentIndex < totalCards - visibleCards);
+            }
+
+            showMoreRight.addEventListener('click', () => {
+                currentIndex += moveCount; // Move by 3 cards
+                if (currentIndex > totalCards - visibleCards) {
+                    currentIndex = totalCards - visibleCards; // Prevent overshooting
+                }
+                updateCardPosition();
+            });
+
+            showMoreLeft.addEventListener('click', () => {
+                currentIndex -= moveCount; // Move by 3 cards
+                if (currentIndex < 0) {
+                    currentIndex = 0; // Stay at the start
+                }
+                updateCardPosition();
+            });
+
+            // Initialize visibility and position on page load
+            updateCardPosition();
+        </script>
+
+        </div>
+    </place>
+
+    <article>
+        <p>
+            Let me give you a quick look at Myanmar, a country rich in cultural heritage and natural beauty, where
+            ancient temples dot the landscape, bustling markets vibrate with life, and diverse ethnic communities
+            contribute to its vibrant tapestry of traditions and customs; alongside this captivating overview, there are
+            essential things you need to know, such as travel requirements, local customs, and the best times to visit,
+            which will help you fully appreciate all that Myanmar has to offer.
+        </p>
+    </article>
+
+    <!-- Item Menu and Content Section -->
+    <section class="icon-menu">
+        <div class="icon active" onclick="showContent('visa', 'space1.jpeg')">
+            <img src="https://cdn-icons-png.flaticon.com/128/16999/16999766.png" alt="Visa Icon">
+            <p>Visa</p>
+        </div>
+        <div class="icon" onclick="showContent('health', 'space2.jpg')">
+            <img src="https://cdn-icons-png.flaticon.com/128/5340/5340939.png" alt="Health Icon">
+            <p>Health Services and Vaccinations</p>
+        </div>
+        <div class="icon" onclick="showContent('security', 'space3.jpg')">
+            <img src="https://cdn-icons-png.flaticon.com/128/13806/13806334.png" alt="Security Icon">
+            <p>Security</p>
+        </div>
+        <div class="icon" onclick="showContent('communications', 'space4.jpg')">
+            <img src="https://cdn-icons-png.flaticon.com/128/3002/3002655.png" alt="Communications Icon">
+            <p>Connection</p>
+        </div>
+        <div class="icon" onclick="showContent('currency', 'space5.jpg')">
+            <img src="https://cdn-icons-png.flaticon.com/128/3513/3513504.png" alt="Currency Icon">
+            <p>Currency and Exchange</p>
+        </div>
+        <div class="icon" onclick="showContent('electric', 'space6.jpg')">
+            <img src="https://cdn-icons-png.flaticon.com/128/3098/3098083.png" alt="Electric Voltage Icon">
+            <p>Electric Voltage</p>
+        </div>
+        <div class="icon" onclick="showContent('climate', 'space7.jpg')">
+            <img src="https://cdn-icons-png.flaticon.com/128/5347/5347672.png" alt="Climate Icon">
+            <p>Climate and Weather</p>
+        </div>
+        <div class="icon" onclick="showContent('taxes', 'space8.jpg')"> <!-- Changed id from 'climate' to 'taxes' -->
+            <img src="https://cdn-icons-png.flaticon.com/128/17244/17244648.png" alt="Taxes Icon">
+            <p>Taxes and Tips</p>
+        </div>
+    </section>
+
+    <section class="content" id="content-section">
+        <div id="visa" class="content-item active">
+            <h1>Visa</h1>
+            <div class="description">
+                <p>Most travelers to Myanmar are required to obtain a visa prior to entry, which can be conveniently
+                    secured either online via the eVisa platform or through a Myanmar embassy. Here’s an overview of the
+                    most common visa types:</p>
+                <p><strong>1. Tourist Visa:</strong> This visa is suitable for those traveling for leisure, sightseeing,
+                    or recreation. It is typically valid for a 28-day stay, allowing ample time to explore Myanmar's
+                    landscapes and cultural sites. Extensions are generally not granted for tourist visas, so travelers
+                    should plan their visit within this timeframe.</p>
+                <p><strong>2. Business Visa:</strong> For business-related travel, including meetings, conferences, and
+                    business operations, the business visa allows a stay of up to 70 days. Applicants will need
+                    documentation such as a letter from the sponsoring company in Myanmar and proof of their business
+                    activities. This visa can be applied for either online (for registered businesses) or at an embassy.
+                </p>
+                <p><strong>3. Social Visit Visa:</strong> Intended for travelers visiting family or friends in Myanmar,
+                    this visa also permits a stay of 28 days. Applicants are typically required to provide a letter of
+                    invitation from their host, along with proof of relationship if requested. This visa promotes
+                    personal connections, allowing travelers to spend time with loved ones.</p>
+                <p>For all visa applications, it is essential to have a valid passport with at least six months of
+                    validity remaining, a recent passport-sized photo, and any additional documents relevant to your
+                    visa type. To apply for a visa, visit the official Myanmar eVisa website or contact a local embassy
+                    for guidance.</p>
+            </div>
+        </div>
+
+        <div id="health" class="content-item">
+            <h1>Health Services and Vaccinations</h1>
+            <div class="description">
+                <p>Recommended vaccinations include:</p>
+                <p><strong>1. Hepatitis A and B:</strong> Protects against liver diseases.</p>
+                <p><strong>2. Typhoid:</strong> Important for food and water safety.</p>
+                <p><strong>3. Japanese Encephalitis:</strong> Recommended for rural areas.</p>
+                <p><strong>4. Malaria:</strong> Consult a healthcare provider for prevention advice.</p>
+                <p>While medical services in Myanmar are available in major cities, such as Yangon and Mandalay, they
+                    may be limited in rural areas. It is advisable for travelers to ensure they have adequate travel
+                    insurance that covers medical emergencies. In urban centers, travelers can find hospitals and
+                    clinics with varying levels of care, but facilities may not meet the standards found in Western
+                    countries. It’s wise for travelers to carry a basic first aid kit and any personal medications, as
+                    well as to familiarize themselves with the location of medical facilities in the areas they plan to
+                    visit.</p>
+            </div>
+        </div>
+
+        <div id="security" class="content-item">
+            <h1>Security</h1>
+            <div class="description">
+                <p>Myanmar is generally safe in designated areas. However, travelers should:</p>
+                <p><strong>1. Avoid border regions:</strong>Travelers to Myanmar should avoid border regions,
+                    particularly those with ongoing conflicts, as these areas can pose safety risks. Regions near the
+                    borders with Thailand, India, and China may experience political instability. Sticking to
+                    well-traveled routes and designated tourist areas is advisable for a safer experience.</p>
+                <p><strong>2. Stay updated:</strong> Staying informed about the security situation in Myanmar is
+                    essential for travelers. Regularly checking travel advisories from your home country can provide
+                    crucial information about potential risks and safety recommendations. By being proactive, travelers
+                    can make informed decisions about their itineraries and activities.</p>
+                <p><strong>3. Register with your embassy:</strong> Registering with your embassy is a vital step for
+                    those traveling to Myanmar. By informing your embassy of your travel plans, you can receive
+                    important safety updates and assistance in emergencies. This registration enhances communication and
+                    ensures you can be accounted for during your stay.</p>
+            </div>
+        </div>
+
+        <div id="communications" class="content-item">
+            <h1>Connection</h1>
+            <div class="description">
+                <p><strong>1. Local SIM Cards</strong>Travelers can purchase local SIM cards from providers like MPT,
+                    Atom, and Ooredoo at airports and convenience stores, ensuring they stay connected during their
+                    trip.</p>
+                <p><strong>2.Internet Quality</strong>Internet quality varies in Myanmar, with better service available
+                    in cities like Yangon and Mandalay. Wi-Fi can be slow or unreliable in rural areas, so plan
+                    accordingly.</p>
+                <p><strong>3. Language</strong>Basic English is spoken in urban areas, especially in tourist spots, but
+                    proficiency may be limited elsewhere. Learning a few Burmese phrases can enhance communication.</p>
+            </div>
+        </div>
+
+        <div id="currency" class="content-item">
+            <h1>Currency and Exchange</h1>
+            <div class="description">
+                <p>The currency is the Myanmar Kyat (MMK).Travelers should familiarize themselves with the currency to
+                    ensure smooth transactions during their visit.</p>
+                <p><strong>1. US Dollars:</strong>US Dollars are widely accepted for exchange, but it’s important to
+                    ensure they are in excellent condition, as damaged notes may not be accepted.</p>
+                <p><strong>2. Credit Cards:</strong>Credit cards are accepted at high-end hotels and some establishments
+                    in cities, but it’s advisable to carry cash for smaller purchases and rural areas.</p>
+                <p><strong>3. Where to exchange:</strong> Currency exchange services are available at banks, airports,
+                    and authorized money changers, making it convenient for travelers to convert their funds as needed.
+                </p>
+            </div>
+        </div>
+
+        <div id="electric" class="content-item">
+            <h1>Electric Voltage</h1>
+            <div class="description">
+                <p>Myanmar operates on a voltage of 230V and a frequency of 50Hz. Travelers should check their devices
+                    to ensure compatibility with this voltage, as using incompatible equipment may damage electronics or
+                    cause malfunctions. It's advisable to carry devices that can handle this voltage range.</p>
+                <p><strong>1. Plug types:</strong>The common plug types used in Myanmar are C, D, F, and G. Plug type C
+                    is two round pins, while type D has three round pins in a triangular configuration. Types F and G
+                    have different pin arrangements, so knowing which type you will encounter can help you prepare. It’s
+                    a good idea to familiarize yourself with these plug types to ensure your devices can be plugged in
+                    safely.</p>
+                <p><strong>2. Adapters:</strong> To avoid any inconvenience while charging devices, using a universal
+                    adapter is highly recommended for travelers. A universal adapter allows compatibility with various
+                    plug types, making it easy to connect your devices to Myanmar's electrical outlets. This ensures
+                    that you can keep your electronics charged and ready for use throughout your trip.</p>
+            </div>
+        </div>
+
+        <div id="climate" class="content-item">
+            <h1>Climate and Weather</h1>
+            <div class="description">
+                <p>Myanmar has three distinct seasons that impact travel plans. Being aware of these seasons can help
+                    you prepare for your trip.</p>
+                <p><strong>1. Hot Season (March-May):</strong> The hot season runs from March to May, with temperatures
+                    often exceeding 35°C (95°F). Travelers should wear light clothing, stay hydrated, and schedule
+                    outdoor activities for the cooler parts of the day.</p>
+                <p><strong>2. Rainy Season (June-October):</strong>From June to October, the rainy season brings heavy
+                    monsoon rains, particularly in July and August. Travelers should be ready for downpours and consider
+                    bringing waterproof gear. Some areas may be less accessible due to flooding, so staying informed
+                    about local conditions is crucial.</p>
+                <p><strong>3. Cold Season (November-February):</strong> The cold season, from November to February, is
+                    the best time to visit Myanmar. Temperatures range from 20°C to 30°C (68°F to 86°F), making it
+                    comfortable for sightseeing. This season also features various festivals, providing an opportunity
+                    to experience local culture and traditions.</p>
+            </div>
+        </div>
+
+        <div id="taxes" class="content-item">
+            <h1>Taxes and Tips</h1>
+            <div class="description">
+                <p>Myanmar includes a commercial tax of around 5% on most goods and services, which is typically
+                    factored into listed prices. While tipping is not mandatory, it is welcomed, especially in the
+                    hospitality and tourism sectors. Travelers should note the following when tipping:</p>
+                <p><strong>1. General Tipping:</strong> Offering a 5-10% tip is customary in restaurants, hotels, and
+                    spas for good service. In smaller, family-run establishments, tipping is less expected but always
+                    appreciated.</p>
+                <p><strong>2. Guide and Driver Services:</strong> Tipping guides and drivers is common practice. For
+                    tour guides, a tip of about $5-10 per day is standard, depending on service quality. Drivers
+                    typically receive a smaller tip of around $3-5 per day. The gesture is a significant way to show
+                    appreciation for their hospitality and knowledge.</p>
+                <p><strong>3. Porters and Hotel Staff:</strong> For hotel porters, a tip of 500-1000 MMK (about
+                    $0.30-$0.60) per bag is considerate. Housekeeping staff may also be tipped similarly if you stay for
+                    multiple days.</p>
+                <p>Overall, tipping is a kind way to support local workers in the tourism industry and leaves a positive
+                    impression. However, always ensure cash tips are in Myanmar Kyat (MMK) or clean U.S. dollars, as
+                    damaged or old notes may not be accepted.</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function showContent(id, backgroundImage) {
+            const icons = document.querySelectorAll('.icon');
+            const contentItems = document.querySelectorAll('.content-item');
+
+            icons.forEach(icon => icon.classList.remove('active'));
+            contentItems.forEach(item => item.classList.remove('active'));
+
+            document.querySelector(`#${id}`).classList.add('active');
+            document.querySelector(`.icon[onclick="showContent('${id}', '${backgroundImage}')"]`).classList.add('active');
+
+            // Change background image
+            document.body.style.backgroundImage = `url(${backgroundImage})`;
+        }
+    </script>
+
+
+
+    <!-- Our Team Section -->
+    <section class="team">
+        <div class="center">
+            <h1>Our Team</h1>
+        </div>
+        <div class="team-content">
+            <div class="box">
+                <img src="images/Sil.jpg" alt="Sil">
+                <h3>Sil</h3>
+                <div class="icons">
+                    <span class="heart-icon" onclick="incrementHeart(this)">
+                        <i class="ri-heart-fill"></i>
+                        <span class="heart-count">11</span>
+                    </span>
+                    <a href="https://github.com/Sil-144 " target="_blank">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/Apple.jpg" alt="Apple">
+                <h3>Apple</h3>
+                <div class="icons">
+                    <span class="heart-icon" onclick="incrementHeart(this)">
+                        <i class="ri-heart-fill"></i>
+                        <span class="heart-count">11</span>
+                    </span>
+                    <a href="https://github.com/apple-130" target="_blank">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/revy.jpg" alt="Revy">
+                <h3>Revy</h3>
+                <div class="icons">
+                    <span class="heart-icon" onclick="incrementHeart(this)">
+                        <i class="ri-heart-fill"></i>
+                        <span class="heart-count">11</span>
+                    </span>
+                    <a href="https://github.com/bingle-bb" target="_blank">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/Tinker.jpg" alt="Tinkerbell">
+                <h3>Tinkerbell</h3>
+                <div class="icons">
+                    <span class="heart-icon" onclick="incrementHeart(this)">
+                        <i class="ri-heart-fill"></i>
+                        <span class="heart-count">11</span>
+                    </span>
+                    <a href="https://github.com/Tinkerbell-fa1ry" target="_blank">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/Moon.jpg" alt="Moon">
+                <h3>Moon</h3>
+                <div class="icons">
+                    <span class="heart-icon" onclick="incrementHeart(this)">
+                        <i class="ri-heart-fill"></i>
+                        <span class="heart-count">11</span>
+                    </span>
+                    <a href="https://github.com/Tsukiko140" target="_blank">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/kuu.jpg" alt="Kuu">
+                <h3>Kuu</h3>
+                <div class="icons">
+                    <span class="heart-icon" onclick="incrementHeart(this)">
+                        <i class="ri-heart-fill"></i>
+                        <span class="heart-count">11</span>
+                    </span>
+                    <a href="https://github.com/kuu9009" target="_blank">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/ZLHtoo.jpg" alt="ZLHtoo">
+                <h3>ZLHtoo</h3>
+                <div class="icons">
+                    <span class="heart-icon" onclick="incrementHeart(this)">
+                        <i class="ri-heart-fill"></i>
+                        <span class="heart-count">11</span>
+                    </span>
+                    <a href="https://github.com/ZLHtoo" target="_blank">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                </div>
+            </div>
+
+           <div class="box">
+                <img src="images/Jm.jpg" alt="JM">
+                <h3>JM</h3>
+                <div class="icons">
+                    <span class="heart-icon" onclick="incrementHeart(this)">
+                        <i class="ri-heart-fill"></i>
+                        <span class="heart-count">11</span>
+                    </span>
+                    <a href="https://github.com/username" target="_blank">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <script>
+        function incrementHeart(element) {
+            const heartCount = element.querySelector('.heart-count');
+            heartCount.textContent = parseInt(heartCount.textContent) + 1;
+        }
+    </script>
+
+<footer class="custom-footer">
+  <div class="footer-container">
+      <div class="footer-section">
+          <h3>Site Map</h3>
+          <table style="width: 100%; color: #f39c12; border-collapse: collapse;">
+              <tr>
+                  <td style="padding: 10px;"><a href="index.html" target="_self">Home</a></td>
+                  <td style="padding: 10px;"><a href="kachinmain.html" target="_self">Kachin State</a></td>
+                  <td style="padding: 10px;"><a href="Rakinemain.html" target="_self">Rakhine State</a></td>
+                  <td style="padding: 10px;"><a href="Ayeyarwadymain.html" target="_self">Ayeyarwady Region</a></td>
+              </tr>
+              <tr>
+                  <td style="padding: 10px;"><a href="aboutus.html" target="_self">About Us</a></td>
+                  <td style="padding: 10px;"><a href="Kayarmain.html" target="_self">Kayah State</a></td>
+                  <td style="padding: 10px;"><a href="Shanmain.html" target="_self">Shan State</a></td>
+                  <td style="padding: 10px;"><a href="Magwaymain.html" target="_self">Magway Region</a></td>
+              </tr>
+              <tr>
+                  <td style="padding: 10px;"><a href="eventandfestival.html" target="_self">Events</a></td>
+                  <td style="padding: 10px;"><a href="Kayin.html" target="_self">Kayin State</a></td>
+                  <td style="padding: 10px;"><a href="Mandalaymain.html" target="_self">Mandalay Region</a></td>
+                  <td style="padding: 10px;"><a href="sagaingmain.html" target="_self">Sagaing Region</a></td>
+              </tr>
+              <tr>
+                  <td style="padding: 10px;"><a href="form.html" target="_self">Contact</a></td>
+                  <td style="padding: 10px;"><a href="Chinmain.html" target="_self">Chin State</a></td>
+                  <td style="padding: 10px;"><a href="Yangon.html" target="_self">Yangon Region</a></td>
+                  <td style="padding: 10px;"><a href="TanintharyiMain.html" target="_self">Tanintharyi Region</a></td>
+              </tr>
+              <tr>
+                  <td style="padding: 10px;"><a href="" target="_self"></a></td>
+                  <td style="padding: 10px;"><a href="Monmain.html" target="_self">Mon State</a></td>
+                  <td style="padding: 10px;"><a href="bagomain.html" target="_self">Bago Region</a></td>
+              </tr>
+          </table>
+      </div>
+  </div>
+  <div class="footer-container">
+      <div class="footer-section">
+          <h3>Start Your Adventure</h3>
+          <p>Join us in exploring around Myanmar. Your journey starts here!</p>
+      </div>
+      <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: <a href="mailto:cheerfulchums24@gmail.com">cheerfulchums24@gmail.com</a></p>
+          <p>Phone: <a href="tel:+959255747074">+959255747074</a></p>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      <span>Part of Project Work in NUCS . Copyright © 2024 All rights reserved NUCS : National University of Computer Studies <br>This is only the website that used only for Academic Project Testing </span>
+  </div>
+</footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const target = document.querySelector(this.getAttribute('href'));
+                const startPosition = window.pageYOffset;
+                const targetPosition = target.getBoundingClientRect().top + startPosition;
+                const duration = 1000; // Duration in ms for scroll
+                let startTime = null;
+
+                function smoothScroll(currentTime) {
+                    if (startTime === null) startTime = currentTime;
+                    const timeElapsed = currentTime - startTime;
+                    const run = ease(timeElapsed, startPosition, targetPosition - startPosition, duration);
+
+                    window.scrollTo(0, run);
+                    if (timeElapsed < duration) requestAnimationFrame(smoothScroll);
+                }
+
+                function ease(t, b, c, d) {
+                    t /= d / 2;
+                    if (t < 1) return c / 2 * t * t + b;
+                    t--;
+                    return -c / 2 * (t * (t - 2) - 1) + b;
+                }
+
+                requestAnimationFrame(smoothScroll);
+            });
+        });
+
+    </script>
+</body>
+
+</html>
+
